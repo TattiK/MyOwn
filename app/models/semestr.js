@@ -1,5 +1,4 @@
 import DS from 'ember-data';
-import date from 'ember-data/transforms/date';
 
 export default DS.Model.extend({
   name: DS.attr('string'),
