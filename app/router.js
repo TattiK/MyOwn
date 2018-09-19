@@ -6,7 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('educational-programms');
+  this.route('educational-programms', { path: '/' });
 });
 
 export default Router;
