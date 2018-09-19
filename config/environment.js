@@ -40,7 +40,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = 'https://tattik.github.io/MyOwn/';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
